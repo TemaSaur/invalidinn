@@ -48,7 +48,7 @@ def do(df):
 	for line in df.index:
 		row = df.iloc[line]
 
-		inn = row['ИНН']
+		inn = int(float(row['ИНН']))
 
 		datum = find(inn)
 
