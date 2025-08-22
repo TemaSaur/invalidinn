@@ -6,7 +6,7 @@ import traceback
 from datetime import datetime
 
 
-URL = 'https://service.nalog.ru/invalid-inn-proc.json?k=fl&inn'
+URL = 'https://service.nalog.ru/invalid-inn-proc.json'
 
 data = []
 
