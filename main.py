@@ -50,7 +50,7 @@ def do(df):
 
 		inn = row['ИНН']
 
-		datum = find(name, birth_date)
+		datum = find(inn)
 
 		if datum is None:
 			continue
